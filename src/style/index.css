@@ -45,3 +45,35 @@ ul {
   color: #8208a0;
   text-decoration: underline;
 }
+
+.main-body {
+  display: flex;
+  margin-top: 20px;
+}
+
+.aside-left {
+  width: 180px;
+  margin-left: 50px;
+}
+
+.aside-about {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(241, 240, 240);
+}
+
+.aside-archives {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.aside-list {
+  color: #8208a0;
+  text-decoration: underline;
+}
+
+.aside-left-title {
+  font-style: italic;
+}
