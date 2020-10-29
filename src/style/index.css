@@ -111,3 +111,42 @@ ul {
 .main-text-nav {
   color: blue;
 }
+
+.aside-right {
+  position: relative;
+  top: 200px;
+  text-align: center;
+  background-color: rgb(238, 231, 231);
+  height: 180px;
+}
+
+.input {
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  color: darkgray;
+}
+
+.sign-in-button {
+  background-color: rgb(55, 117, 233);
+  color: white;
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.input-email {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 30px;
+  width: 160px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.input-name {
+  height: 30px;
+  width: 160px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" name="top">
     <nav>
       <ul class="head-list">
         <li>Home</li>
@@ -73,12 +73,12 @@
               <img src="//facebook.com/images/pages/create/biz_illustration.png" alt="">
             </figure>
             <figcaption class="main-text">
-              <h1>Article 1</h1>
+              <h1>Article 2</h1>
               <p>CSS is the language we use to style an HTML document.
                 CSS describes how HTML elements should be displayed.
                 This tutorial will teach you CSS from basic to advanced.
               </p>
-              <a>View details >></a>
+              <a class="main-text-nav">View details >></a>
             </figcaption>
           </section>
         </li>
@@ -88,22 +88,27 @@
               <img src="//facebook.com/images/pages/create/biz_illustration.png" alt="">
             </figure>
             <figcaption class="main-text">
-              <h1>Article 1</h1>
+              <h1>Article 3</h1>
               <p>CSS is the language we use to style an HTML document.
                 CSS describes how HTML elements should be displayed.
                 This tutorial will teach you CSS from basic to advanced.
               </p>
-              <a>View details >></a>
+              <a class="main-text-nav">View details >></a>
             </figcaption>
           </section>
         </li>
       </ul>
     </main>
-    <aside>right</aside>
+    <aside class="aside-right">
+      <input type="text" value="Email address" class="input input-email">
+      <input type="text" value="Password" class="input input-name">
+      <p><input type="checkbox">Remember me</p>
+      <button class="sign-in-button">Sign in</button>
+    </aside>
   </section>
   <footer class="footer">
     <p class="footer-text">Advanced CSS homework by <a class="footer-link">@Your Name </a></p>
-    <a class="footer-link">Back to top</a>
+    <a class="footer-link" href="#top">Back to top</a>
   </footer>
   <script src="src/app.js"></script>
 </body>
