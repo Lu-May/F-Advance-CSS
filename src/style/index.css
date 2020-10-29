@@ -32,3 +32,16 @@ ul {
   justify-content: space-between;
   display: flex;
 }
+
+.footer {
+  height: 60px;
+  text-align: center;
+  background-color: #f1f2f3;
+  font-size: 15px;
+  color: gray;
+}
+
+.footer-link {
+  color: #8208a0;
+  text-decoration: underline;
+}
