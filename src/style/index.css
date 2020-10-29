@@ -1,6 +1,4 @@
-header, main {
-  border: 1px solid red;
-}
+
 body,
 html {
   margin: 0;
@@ -76,4 +74,40 @@ ul {
 
 .aside-left-title {
   font-style: italic;
+}
+
+.main-list {
+  display: flex;
+  padding-left: 10px;
+}
+
+.img-component {
+  margin-right: 15px;
+  width: 50%;
+}
+
+.component-img-first {
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.component-img-two {
+  border: 1px solid lightgray;
+}
+
+.img-three {
+  height: 350px;
+}
+
+.component-img-three {
+  border: 1px solid lightgray;
+}
+
+.main-text {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main-text-nav {
+  color: blue;
 }
